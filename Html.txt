@@ -1,0 +1,193 @@
+̥<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio website</title>
+    <link rel="stylesheet" href="portfolio.css" />
+    <script src="https://kit.fontawesome.com/fb1d3b24d5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="https://i.pinimg.com/1200x/47/e3/2e/47e32e77b2955fedde9ec1bea1e6e440.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#">Home </a></li>
+                    <li><a href="#">About </a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio </a></li>
+                    <li><a href="#">Contact </a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+</ul>
+                <i class="fas fa-bars" onclick="openmenu"></i>
+
+            </nav>
+            <div class="header-text">
+                <p>WEB DEVELOPER</p>
+                <h1>Hi, I'm <span>SAKSHI GHOLAP</span> <br>From INDIA</h1>
+                <a href="Sakshi Gholap resume.pdf" download class="btn btn2"> Download Resume</a>
+
+            </div>
+        </div>
+    </div>
+    <!--    ---------------about-------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="C:\Users\shwet\Downloads\WhatsApp Image 2023-09-21 at 5.21.03 PM.jpeg" alt="">
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="sub-title">ABOUT ME</h1>
+                    <p>
+                        Hello Everyone , I am SAKSHI GHOLAP and Looking to start my career as an entry-level software engineer 
+                        with a reputed firm driven by technology!  
+                        I'm an Innovative, creative, and willing to contribute ideas and learn new things.
+                        Self-motivated and hardworking fresher seeking an opportunity to work in a challenging environment
+                        to prove my skills and utilize my knowledge & intelligence in the organization's growth.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('SKILLS')">SKILLS</p>
+                        <p class="tab-links active-link" onclick="opentab('WORK EXPERINENCES')">WORK EXPERINENCES</p>
+                        <p class="tab-links active-link" onclick="opentab('EDUACTION QUALIFICATIONS')">EDUCATION QUALIFICATIONS</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="SKILLS">
+                        <ul>
+                            <li><span>WEB DEVELOPMENT</span><br> Frontend Development + Backend Development</li>
+                            <li><span>FRONT END DEVELOPMENT</span><br> Html, css, JavaScript, Boottrap, React</li>
+                            <li><span>OTHER PROGRAMMING LANGUAGE</span><br> Python, Java, MySql</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="WORK EXPERINECES">
+                        <ul>
+                            <li><span>09/2023 - current</span><br>Web Development Intern At Coding Samurai</li>
+                            <li><span>07/2023 - 08/2023</span><br>Web DEevelopment Intern at TechnoHacks</li>
+                            <li><span>08/2023 - 09/2023</span><br>Python Development Intern At CodSoft</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="EDUCATION QUALIFICATIONS">
+                        <ul>
+                            <li><span>2021 - 2025</span><br>Currently Pursuring B.E.(AI & DS)</li>
+                            <li><span>2020 - 2021</span><br> Completed HSC with SCORE 76.50%</li>
+                            <li><span>2019</span><br> Completed SSC with SCORE 86.40% </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--     --------------------services--------------------------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">MY SERVICES</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web design</h2>
+                    <p>
+                        "Professional web design services that elevate your online presence. Stunning websites tailored
+                        to
+                        your brand's unique vision."
+                    </p>
+                    <a href="#"> Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App design</h2>
+                    <p>
+                        "Expert app design services to create intuitive, visually captivating mobile experiences.
+                        Transform
+                        your ideas into polished, user-friendly applications."
+                    </p>
+                    <a href="#"> Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    <h2>Video Editing</h2>
+                    <p>
+
+                        "Enhance your storytelling with seamless video editing services. Captivate your audience with
+                        polished visuals and compelling narratives."
+                    </p>
+                    <a href="#"> Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--     ---------------------portfolio---------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="https://techcrunch.com/wp-content/uploads/2023/04/instagram-reels-trends.webp">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>This app connects you to the talented people around the world.
+                            Download it from app store.
+                        </p>
+                        <a href="#"><i class="fa-regular fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="file:///C:/Users/shwet/Downloads/musics.webp">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Here is the best 90's songs playlist for enjoy every beats.
+                            Download it from app store.
+                        </p>
+                        <a href="#"><i class="fa-regular fa-link"></i></a>
+                    </div>
+                </div>
+<div class="work">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1F8pItXCUaXBwedbqWIH9-BR0X1jfrN2Fyg&usqp=CAU">
+                    <div class="layer">
+                        <h3>Online shopping App</h3>
+                        <p>This app offers you to buy the latest trending cloths with 50% off.
+                            Download it from app store.
+                        </p>
+                        <a href="#"><i class="fa-regular fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn"> See more</a>
+        </div>
+    </div>
+    <!-- -------------------contact--------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i>gholapsakshi80@gmail.com</p>
+                    <P> <i class="fa-solid fa-phone"></i> 91367 56960</P>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-Telegram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="your Name" required>
+                        <input type="email" name="email" placeholder="your Email" required>
+                        <textarea name="Message" rows="6" placeholder="your Message"></textarea>
+                        <button type="submit" class="btn btn2"> submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Sakshi. Made with <i class="fa-solid fa-heart"></i> Sakshi Gholap</p>
+        </div>
+</div>
+</body>
+
+</html>
